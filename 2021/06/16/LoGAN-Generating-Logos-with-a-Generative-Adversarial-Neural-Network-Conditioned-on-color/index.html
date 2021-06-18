@@ -87,7 +87,8 @@
 <meta property="og:description" content="本文提出了LoGAN框架用于logo生成，基于AC-WGAN-GP结构。其condition 是12种不同的颜色，以颜色进行logo类别的标识。该篇论文代码已经开源，下载地址 总体上说来，论文思路很简单，但是有很强的业界价值。 LogoGAN框架图如下图所示：   该模型综合了AC-GAN与 WGAN-GP 两部分的优势，又进行了部分改造： AC-GAN 的D 损失来源于两个部分：real-fak">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/2021/06/16/LoGAN-Generating-Logos-with-a-Generative-Adversarial-Neural-Network-Conditioned-on-color/logoGAN.png">
-<meta property="og:updated_time" content="2021-06-16T05:43:44.905Z">
+<meta property="og:image" content="http://yoursite.com/2021/06/16/LoGAN-Generating-Logos-with-a-Generative-Adversarial-Neural-Network-Conditioned-on-color/logo.png">
+<meta property="og:updated_time" content="2021-06-18T07:52:20.359Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="LoGAN: Generating Logos with a Generative Adversarial Neural Network Conditioned on color">
 <meta name="twitter:description" content="本文提出了LoGAN框架用于logo生成，基于AC-WGAN-GP结构。其condition 是12种不同的颜色，以颜色进行logo类别的标识。该篇论文代码已经开源，下载地址 总体上说来，论文思路很简单，但是有很强的业界价值。 LogoGAN框架图如下图所示：   该模型综合了AC-GAN与 WGAN-GP 两部分的优势，又进行了部分改造： AC-GAN 的D 损失来源于两个部分：real-fak">
@@ -362,6 +363,14 @@
 <li><p>模型评估使用的是<code>Precision</code>、<code>Recall</code>、<code>F1</code>。</p>
 </li>
 </ul>
+<p>实际效果展示：</p>
+<p><img src="./logo.png" alt="logo"></p>
+<p>综合评价：</p>
+<p>以目前的方案来讲实用性不是很大，更多的是给予一种可能性。距离实际使用差距太大。</p>
+<ul>
+<li>目前只考虑了logo的颜色，缺少太多定制化的要求，比如：特定图形、符号的融入。</li>
+<li>分辨率过低，图像太过于模糊。</li>
+</ul>
 
       
     </div>
@@ -473,7 +482,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
